@@ -1,0 +1,299 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hydok.study.flutter_study_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/hydok/Desktop/flutterProject/flutter_study_app/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/hydok/Desktop/flutterProject/flutter_study_app/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:image_picker] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+15-->[:image_picker] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->[:image_picker] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+16-->[:image_picker] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:24:5-79
+17-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:24:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:25:5-68
+18-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:25:22-65
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+19-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:26:5-110
+19-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:26:22-107
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->[com.google.firebase:firebase-iid:20.0.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/f26cdfb5f8d69cbc9663543f3ec1de65/firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
+20-->[com.google.firebase:firebase-iid:20.0.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/f26cdfb5f8d69cbc9663543f3ec1de65/firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
+21    <!--
+22 io.flutter.app.FlutterApplication is an android.app.Application that
+23         calls FlutterMain.startInitialization(this); in its onCreate method.
+24         In most cases you can leave this as-is, but you if you want to provide
+25         additional functionality it is fine to subclass or reimplement
+26         FlutterApplication and put your custom class here.
+27    -->
+28    <application
+28-->/Users/hydok/Desktop/flutterProject/flutter_study_app/android/app/src/main/AndroidManifest.xml:8:5-29:19
+29        android:name="io.flutter.app.FlutterApplication"
+29-->/Users/hydok/Desktop/flutterProject/flutter_study_app/android/app/src/main/AndroidManifest.xml:9:9-57
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.0.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/3aabd8abbe4aca13d5de98eb4193fb62/core-1.0.2/AndroidManifest.xml:22:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->/Users/hydok/Desktop/flutterProject/flutter_study_app/android/app/src/main/AndroidManifest.xml:11:9-43
+33        android:label="flutter_study_app" >
+33-->/Users/hydok/Desktop/flutterProject/flutter_study_app/android/app/src/main/AndroidManifest.xml:10:9-42
+34        <activity
+34-->/Users/hydok/Desktop/flutterProject/flutter_study_app/android/app/src/main/AndroidManifest.xml:12:9-23:20
+35            android:name="com.hydok.study.flutter_study_app.MainActivity"
+35-->/Users/hydok/Desktop/flutterProject/flutter_study_app/android/app/src/main/AndroidManifest.xml:13:13-41
+36            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+36-->/Users/hydok/Desktop/flutterProject/flutter_study_app/android/app/src/main/AndroidManifest.xml:16:13-163
+37            android:hardwareAccelerated="true"
+37-->/Users/hydok/Desktop/flutterProject/flutter_study_app/android/app/src/main/AndroidManifest.xml:17:13-47
+38            android:launchMode="singleTop"
+38-->/Users/hydok/Desktop/flutterProject/flutter_study_app/android/app/src/main/AndroidManifest.xml:14:13-43
+39            android:theme="@style/LaunchTheme"
+39-->/Users/hydok/Desktop/flutterProject/flutter_study_app/android/app/src/main/AndroidManifest.xml:15:13-47
+40            android:windowSoftInputMode="adjustResize" >
+40-->/Users/hydok/Desktop/flutterProject/flutter_study_app/android/app/src/main/AndroidManifest.xml:18:13-55
+41            <intent-filter>
+41-->/Users/hydok/Desktop/flutterProject/flutter_study_app/android/app/src/main/AndroidManifest.xml:19:13-22:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/hydok/Desktop/flutterProject/flutter_study_app/android/app/src/main/AndroidManifest.xml:20:17-68
+42-->/Users/hydok/Desktop/flutterProject/flutter_study_app/android/app/src/main/AndroidManifest.xml:20:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/hydok/Desktop/flutterProject/flutter_study_app/android/app/src/main/AndroidManifest.xml:21:17-76
+44-->/Users/hydok/Desktop/flutterProject/flutter_study_app/android/app/src/main/AndroidManifest.xml:21:27-74
+45            </intent-filter>
+46        </activity>
+47        <!--
+48             Don't delete the meta-data below.
+49             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+50        -->
+51        <meta-data
+51-->/Users/hydok/Desktop/flutterProject/flutter_study_app/android/app/src/main/AndroidManifest.xml:26:9-28:33
+52            android:name="flutterEmbedding"
+52-->/Users/hydok/Desktop/flutterProject/flutter_study_app/android/app/src/main/AndroidManifest.xml:27:13-44
+53            android:value="2" />
+53-->/Users/hydok/Desktop/flutterProject/flutter_study_app/android/app/src/main/AndroidManifest.xml:28:13-30
+54
+55        <service
+55-->[:firebase_storage] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+56            android:name="com.google.firebase.components.ComponentDiscoveryService"
+56-->[:firebase_storage] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+57            android:directBootAware="true"
+57-->[com.google.firebase:firebase-common:19.3.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/7319376c8f9884963bd850b4c686658d/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+58            android:exported="false" >
+58-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/ca912bff2260618b5b638fe661521702/play-services-measurement-api-17.2.2/AndroidManifest.xml:29:13-37
+59            <meta-data
+59-->[:firebase_storage] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+60                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+60-->[:firebase_storage] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[:firebase_storage] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+62            <meta-data
+62-->[:cloud_firestore] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+63                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+63-->[:cloud_firestore] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[:cloud_firestore] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+65            <meta-data
+65-->[:firebase_auth] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+66                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+66-->[:firebase_auth] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[:firebase_auth] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+68            <meta-data
+68-->[:firebase_core] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+69                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+69-->[:firebase_core] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[:firebase_core] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+71            <meta-data
+71-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/ca912bff2260618b5b638fe661521702/play-services-measurement-api-17.2.2/AndroidManifest.xml:30:13-32:85
+72                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+72-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/ca912bff2260618b5b638fe661521702/play-services-measurement-api-17.2.2/AndroidManifest.xml:31:17-139
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/ca912bff2260618b5b638fe661521702/play-services-measurement-api-17.2.2/AndroidManifest.xml:32:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-storage:17.0.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/e4241f72adf4015f6e51f3061e479a70/jetified-firebase-storage-17.0.0/AndroidManifest.xml:31:13-33:85
+75                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+75-->[com.google.firebase:firebase-storage:17.0.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/e4241f72adf4015f6e51f3061e479a70/jetified-firebase-storage-17.0.0/AndroidManifest.xml:32:17-107
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-storage:17.0.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/e4241f72adf4015f6e51f3061e479a70/jetified-firebase-storage-17.0.0/AndroidManifest.xml:33:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-firestore:21.3.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/6ced057fbea03504f1a22fb736106347/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:20:13-22:85
+78                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+78-->[com.google.firebase:firebase-firestore:21.3.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/6ced057fbea03504f1a22fb736106347/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:21:17-111
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-firestore:21.3.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/6ced057fbea03504f1a22fb736106347/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:22:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-auth:17.0.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/278d8d1796ea4d683efb42fd9d08bff4/jetified-firebase-auth-17.0.0/AndroidManifest.xml:36:13-38:85
+81                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+81-->[com.google.firebase:firebase-auth:17.0.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/278d8d1796ea4d683efb42fd9d08bff4/jetified-firebase-auth-17.0.0/AndroidManifest.xml:37:17-109
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-auth:17.0.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/278d8d1796ea4d683efb42fd9d08bff4/jetified-firebase-auth-17.0.0/AndroidManifest.xml:38:17-82
+83            <meta-data
+83-->[com.google.firebase:firebase-iid:20.0.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/f26cdfb5f8d69cbc9663543f3ec1de65/firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
+84                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+84-->[com.google.firebase:firebase-iid:20.0.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/f26cdfb5f8d69cbc9663543f3ec1de65/firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-iid:20.0.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/f26cdfb5f8d69cbc9663543f3ec1de65/firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
+86        </service>
+87
+88        <provider
+88-->[:image_picker] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+89            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+89-->[:image_picker] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+90            android:authorities="com.hydok.study.flutter_study_app.flutter.image_provider"
+90-->[:image_picker] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+91            android:exported="false"
+91-->[:image_picker] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+92            android:grantUriPermissions="true" >
+92-->[:image_picker] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+93            <meta-data
+93-->[:image_picker] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+94                android:name="android.support.FILE_PROVIDER_PATHS"
+94-->[:image_picker] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+95                android:resource="@xml/flutter_image_picker_file_paths" />
+95-->[:image_picker] /Users/hydok/Desktop/flutterProject/flutter_study_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+96        </provider>
+97
+98        <receiver
+98-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:29:9-33:20
+99            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+99-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:30:13-85
+100            android:enabled="true"
+100-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:31:13-35
+101            android:exported="false" >
+101-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:32:13-37
+102        </receiver>
+103        <receiver
+103-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:34:9-42:20
+104            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+104-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:35:13-100
+105            android:enabled="true"
+105-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:36:13-35
+106            android:exported="true"
+106-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:37:13-36
+107            android:permission="android.permission.INSTALL_PACKAGES" >
+107-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:38:13-69
+108            <intent-filter>
+108-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:39:13-41:29
+109                <action android:name="com.android.vending.INSTALL_REFERRER" />
+109-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:40:17-79
+109-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:40:25-76
+110            </intent-filter>
+111        </receiver>
+112
+113        <service
+113-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:44:9-47:40
+114            android:name="com.google.android.gms.measurement.AppMeasurementService"
+114-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:45:13-84
+115            android:enabled="true"
+115-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:46:13-35
+116            android:exported="false" />
+116-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:47:13-37
+117        <service
+117-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:48:9-52:72
+118            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+118-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:49:13-87
+119            android:enabled="true"
+119-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:50:13-35
+120            android:exported="false"
+120-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:51:13-37
+121            android:permission="android.permission.BIND_JOB_SERVICE" />
+121-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/a2d3f38d709f8b9f54c2677fdca8f29a/play-services-measurement-17.2.2/AndroidManifest.xml:52:13-69
+122
+123        <activity
+123-->[com.google.android.gms:play-services-auth:16.0.1] /Users/hydok/.gradle/caches/transforms-2/files-2.1/19293ea20634824663f11389bac91c4e/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+124            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+124-->[com.google.android.gms:play-services-auth:16.0.1] /Users/hydok/.gradle/caches/transforms-2/files-2.1/19293ea20634824663f11389bac91c4e/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+125            android:excludeFromRecents="true"
+125-->[com.google.android.gms:play-services-auth:16.0.1] /Users/hydok/.gradle/caches/transforms-2/files-2.1/19293ea20634824663f11389bac91c4e/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+126            android:exported="false"
+126-->[com.google.android.gms:play-services-auth:16.0.1] /Users/hydok/.gradle/caches/transforms-2/files-2.1/19293ea20634824663f11389bac91c4e/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+127            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+127-->[com.google.android.gms:play-services-auth:16.0.1] /Users/hydok/.gradle/caches/transforms-2/files-2.1/19293ea20634824663f11389bac91c4e/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+128        <!--
+129            Service handling Google Sign-In user revocation. For apps that do not integrate with
+130            Google Sign-In, this service will never be started.
+131        -->
+132        <service
+132-->[com.google.android.gms:play-services-auth:16.0.1] /Users/hydok/.gradle/caches/transforms-2/files-2.1/19293ea20634824663f11389bac91c4e/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+133            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+133-->[com.google.android.gms:play-services-auth:16.0.1] /Users/hydok/.gradle/caches/transforms-2/files-2.1/19293ea20634824663f11389bac91c4e/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+134            android:exported="true"
+134-->[com.google.android.gms:play-services-auth:16.0.1] /Users/hydok/.gradle/caches/transforms-2/files-2.1/19293ea20634824663f11389bac91c4e/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+135            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+135-->[com.google.android.gms:play-services-auth:16.0.1] /Users/hydok/.gradle/caches/transforms-2/files-2.1/19293ea20634824663f11389bac91c4e/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+136
+137        <activity
+137-->[com.google.firebase:firebase-auth:17.0.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/278d8d1796ea4d683efb42fd9d08bff4/jetified-firebase-auth-17.0.0/AndroidManifest.xml:24:9-31:50
+138            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+138-->[com.google.firebase:firebase-auth:17.0.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/278d8d1796ea4d683efb42fd9d08bff4/jetified-firebase-auth-17.0.0/AndroidManifest.xml:25:13-85
+139            android:excludeFromRecents="true"
+139-->[com.google.firebase:firebase-auth:17.0.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/278d8d1796ea4d683efb42fd9d08bff4/jetified-firebase-auth-17.0.0/AndroidManifest.xml:26:13-46
+140            android:exported="true"
+140-->[com.google.firebase:firebase-auth:17.0.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/278d8d1796ea4d683efb42fd9d08bff4/jetified-firebase-auth-17.0.0/AndroidManifest.xml:27:13-36
+141            android:launchMode="singleTask"
+141-->[com.google.firebase:firebase-auth:17.0.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/278d8d1796ea4d683efb42fd9d08bff4/jetified-firebase-auth-17.0.0/AndroidManifest.xml:28:13-44
+142            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+142-->[com.google.firebase:firebase-auth:17.0.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/278d8d1796ea4d683efb42fd9d08bff4/jetified-firebase-auth-17.0.0/AndroidManifest.xml:29:13-102
+143            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+143-->[com.google.firebase:firebase-auth:17.0.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/278d8d1796ea4d683efb42fd9d08bff4/jetified-firebase-auth-17.0.0/AndroidManifest.xml:30:13-72
+144
+145        <receiver
+145-->[com.google.firebase:firebase-iid:20.0.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/f26cdfb5f8d69cbc9663543f3ec1de65/firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
+146            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+146-->[com.google.firebase:firebase-iid:20.0.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/f26cdfb5f8d69cbc9663543f3ec1de65/firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
+147            android:exported="true"
+147-->[com.google.firebase:firebase-iid:20.0.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/f26cdfb5f8d69cbc9663543f3ec1de65/firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
+148            android:permission="com.google.android.c2dm.permission.SEND" >
+148-->[com.google.firebase:firebase-iid:20.0.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/f26cdfb5f8d69cbc9663543f3ec1de65/firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
+149            <intent-filter>
+149-->[com.google.firebase:firebase-iid:20.0.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/f26cdfb5f8d69cbc9663543f3ec1de65/firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
+150                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+150-->[com.google.firebase:firebase-iid:20.0.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/f26cdfb5f8d69cbc9663543f3ec1de65/firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
+150-->[com.google.firebase:firebase-iid:20.0.2] /Users/hydok/.gradle/caches/transforms-2/files-2.1/f26cdfb5f8d69cbc9663543f3ec1de65/firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
+151            </intent-filter>
+152        </receiver>
+153
+154        <provider
+154-->[com.google.firebase:firebase-common:19.3.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/7319376c8f9884963bd850b4c686658d/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+155            android:name="com.google.firebase.provider.FirebaseInitProvider"
+155-->[com.google.firebase:firebase-common:19.3.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/7319376c8f9884963bd850b4c686658d/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+156            android:authorities="com.hydok.study.flutter_study_app.firebaseinitprovider"
+156-->[com.google.firebase:firebase-common:19.3.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/7319376c8f9884963bd850b4c686658d/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+157            android:exported="false"
+157-->[com.google.firebase:firebase-common:19.3.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/7319376c8f9884963bd850b4c686658d/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+158            android:initOrder="100" />
+158-->[com.google.firebase:firebase-common:19.3.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/7319376c8f9884963bd850b4c686658d/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+159
+160        <activity
+160-->[com.google.android.gms:play-services-base:17.0.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/4c0b774c09d5393feb013f0dbe753af3/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+161            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+161-->[com.google.android.gms:play-services-base:17.0.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/4c0b774c09d5393feb013f0dbe753af3/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+162            android:exported="false"
+162-->[com.google.android.gms:play-services-base:17.0.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/4c0b774c09d5393feb013f0dbe753af3/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+163            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+163-->[com.google.android.gms:play-services-base:17.0.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/4c0b774c09d5393feb013f0dbe753af3/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+164
+165        <meta-data
+165-->[com.google.android.gms:play-services-basement:17.0.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/6050fda2340c4a3c0a648c89ad016ea9/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+166            android:name="com.google.android.gms.version"
+166-->[com.google.android.gms:play-services-basement:17.0.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/6050fda2340c4a3c0a648c89ad016ea9/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+167            android:value="@integer/google_play_services_version" />
+167-->[com.google.android.gms:play-services-basement:17.0.0] /Users/hydok/.gradle/caches/transforms-2/files-2.1/6050fda2340c4a3c0a648c89ad016ea9/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+168    </application>
+169
+170</manifest>

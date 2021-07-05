@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>397254064262-vc93el61pcvmfng50e18lds2jphl8p3g.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.397254064262-vc93el61pcvmfng50e18lds2jphl8p3g</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>397254064262-abqk7ouri70ucga7k6rqk6snc2722il3.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDhwMEYkz7uwqiilDjNm0Rh0fAxeKYjwjs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>397254064262</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.hydok.study.flutterStudyApp</string>
+	<key>PROJECT_ID</key>
+	<string>instagram-clon-3c0d1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>instagram-clon-3c0d1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:397254064262:ios:56e95ce2c1434204f9f907</string>
+	<key>DATABASE_URL</key>
+	<string>https://instagram-clon-3c0d1.firebaseio.com</string>
+</dict>
+</plist>
