@@ -8,6 +8,9 @@ import 'login_page.dart';
 class RootPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+
+
+
     return StreamBuilder<FirebaseUser>(
       stream: FirebaseAuth.instance.onAuthStateChanged, //firebase auto 상태변화 반응..(로그인 및 로그아웃시)
       builder: (BuildContext context, AsyncSnapshot snapshot) {

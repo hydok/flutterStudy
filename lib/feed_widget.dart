@@ -29,7 +29,9 @@ class _FeedWidgetState extends State<FeedWidget> {
 
   @override
   Widget build(BuildContext context) {
+
     var comment = widget.document['comment'] ?? 0;
+
     return Column(
       children: <Widget>[
         ListTile(

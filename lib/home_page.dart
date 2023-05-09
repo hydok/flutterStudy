@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
             child: Column(
               children: <Widget>[
                 Padding(padding: EdgeInsets.all(10.0)),
-                Text('app 에 오신 것을 환영합니다', style: TextStyle(fontSize: 24)),
+                Text('오신 것을 환영합니다', style: TextStyle(fontSize: 24)),
                 Padding(padding: EdgeInsets.all(10.0)),
                 Text(
                   '사진과 동영상을 보려면 팔로우 하세요',

@@ -94,6 +94,7 @@ class _CreatePageState extends State<CreatePage> {
             controller: textEditingController,
             decoration: InputDecoration(hintText: '내용을 입력하세요'),
           ),
+          //Text("",maxLines: 1, style: TextStyle(fontSize: 10,color: Colors.redAccent),)
         ],
       ),
     );

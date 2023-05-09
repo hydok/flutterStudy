@@ -15,8 +15,8 @@ class TabPage extends StatefulWidget {
 }
 
 class _TabPageState extends State<TabPage> {
-  int _selectedIndex = 0;
 
+  int _selectedIndex = 0;
   List _pages;
 
   @override
@@ -31,6 +31,7 @@ class _TabPageState extends State<TabPage> {
 
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
       body: Center(child: _pages[_selectedIndex]),
       bottomNavigationBar: BottomNavigationBar(
@@ -46,6 +47,7 @@ class _TabPageState extends State<TabPage> {
                 icon: Icon(Icons.account_circle), title: Text('Account')),
           ]),
     );
+
   }
 
   void _onItemTapped(int value) {
